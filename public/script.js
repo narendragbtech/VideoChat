@@ -24,7 +24,7 @@ navigator.mediaDevices
     // anwser to other user peer connection and send your stream to them
     // add them stream to our window to view other your stream
     myPeer.on("call", (call) => {
-      call.anwser(stream);
+      call.answer(stream);
       const video = document.createElement("video");
       call.on("stream", (userVideoStream) => {
         addVideoStream(video, userVideoStream);
