@@ -1,2 +1,0 @@
-# VideoChat
-Video Chat Application
